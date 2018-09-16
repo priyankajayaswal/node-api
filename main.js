@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const http = require("https");
-const config = require('./api/config')
+const config = require('./api/config/config')
 const port = 5000;
 
 

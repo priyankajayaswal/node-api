@@ -1,0 +1,3 @@
+var GetDataTemplate = function GetDataTemplate() {
+    
+}

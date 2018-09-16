@@ -1,5 +1,6 @@
-var BaseInterface = require('./base.drive.service')
-var DriveZy = function DriveZy() {
+var BaseInterface = require('./base.drive.interface')
+var DriveZy = function DriveZy(options) {
+    this.data = options.data
     console.log("DriveZy")
 }
 

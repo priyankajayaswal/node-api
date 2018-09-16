@@ -1,5 +1,6 @@
-var BaseInterface = require('./base.drive.service')
-var PleasantCarRentals = function PleasantCarRentals() {
+var BaseInterface = require('./base.drive.interface')
+var PleasantCarRentals = function PleasantCarRentals(options) {
+    this.data = options.data
     console.log("PleasantCarRentals")
 }
 

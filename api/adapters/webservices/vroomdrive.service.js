@@ -1,5 +1,6 @@
-var BaseInterface = require('./base.drive.service')
-var VroomDrive = function VroomDrive() {
+var BaseInterface = require('./base.drive.interface')
+var VroomDrive = function VroomDrive(options) {
+    this.data = options.data
     console.log("VroomDrive")
 }
 

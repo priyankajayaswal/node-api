@@ -1,5 +1,6 @@
-var BaseInterface = require('./base.drive.service')
-var ZoomCar = function ZoomCar() {
+var BaseInterface = require('./base.drive.interface')
+var ZoomCar = function ZoomCar(options) {
+    this.data = options.data
     console.log("ZoomCar")
 }
 

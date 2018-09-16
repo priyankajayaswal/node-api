@@ -1,5 +1,6 @@
-var BaseInterface = require('./base.drive.service')
-var DriveGaadi = function DriveGaadi() {
+var BaseInterface = require('./base.drive.interface')
+var DriveGaadi = function DriveGaadi(options) {
+    this.data = options.data
     console.log("DriveGaadi")
 }
 

@@ -1,5 +1,6 @@
-var BaseInterface = require('./base.drive.service')
-var UrbanDrive = function UrbanDrive() {
+var BaseInterface = require('./base.drive.interface')
+var UrbanDrive = function UrbanDrive(options) {
+    this.data = options.data
     console.log("UrbanDrive")
 }
 

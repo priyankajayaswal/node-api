@@ -1,6 +1,6 @@
 module.exports = {
-    "prefix" : "/rentov",
-    "endpoint": "/api",
+    prefix : "/rentov",
+    endpoint: "/api",
     driveGaadi : {
         get : {
             example :"https://www.drivegaadi.com/search?pickupLocation=2&pickupDate=14-Sep-2018&pickupTime=21%3A30&dropOffDate=25-Sep-2018&dropOffTime=16%3A00",

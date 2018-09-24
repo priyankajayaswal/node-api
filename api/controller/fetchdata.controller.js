@@ -12,7 +12,7 @@ util.inherits(FetchDataController, BaseController);
 FetchDataController.prototype.getData = function getData(req,res) {
 
     var that = this;
-    FetchDataService.getData()
+    FetchDataService.getData(req.query)
     .then(data => {
         console.log("Data is "+ data);
         res.send(that.getSuccessResponse(data))
